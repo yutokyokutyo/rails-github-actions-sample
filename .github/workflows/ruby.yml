@@ -34,6 +34,6 @@ jobs:
     - name: Run tests
       run: |
         yarn install --check-files
-        bundel exec rails db:migrate
+        bundle exec rails db:migrate
         bundle exec rails test
       
